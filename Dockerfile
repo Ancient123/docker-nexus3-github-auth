@@ -1,4 +1,4 @@
-FROM sonatype/nexus3:3.4.0
+FROM sonatype/nexus3:latest
 
 LABEL com.sonatype.nexus3.plugins.nexus3-github-oauth-plugin.version="1.0.0" \
       com.sonatype.nexus3.plugins.nexus3-github-oauth-plugin.url="https://github.com/larscheid-schmitzhermes/nexus3-github-oauth-plugin/releases"
